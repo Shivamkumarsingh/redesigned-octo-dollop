@@ -1,0 +1,51 @@
+.pad{
+	padding:0 0 0 0 !important;
+	height :420px;
+}
+.pad1{
+	
+	height :420px;
+	width :200;
+}
+
+body{
+  background-image: url('images/15.jpg');
+}
+ html {
+    font-family: GillSans, Calibri, Trebuchet, sans-serif;
+  }
+  .slider.slides li img {
+    
+    background-repeat: no-repeat;
+     background-repeat: no-repeat;
+    height: 100px !important;
+}
+ .mar{
+ 	margin-left:10px;
+ }
+  .show-on-small{
+
+  }
+  .material-icons
+  {
+  font-size:2.5em;
+   color:#fff; 
+   border:2px solid #fff; 
+   border-radius:50%
+}
+.dollar{
+	font-size:2.5em;
+   color:#fff; 
+   border:2px solid #fff; 
+   border-radius:5%
+}
+.cen
+{
+margin:200px 200px 00px 250px;
+}
+.amount{
+	border-color: #fff;
+	background-color: #fff;
+	height: 35px;
+	
+}
