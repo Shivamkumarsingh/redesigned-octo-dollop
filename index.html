@@ -57,12 +57,18 @@
   <div  class="col l12 m12 s12  grey lighten-4 pad1" style="height:250px">
 
 	     <div class="row">
-       <div class ="col 14 m4 s4">
+       <div class ="col 14 offset-l4">
        </div>
          <div class ="col 14 m4 s12">
         
             <h6 class=" left-align blue-text text-lighten-3">We're leading the way in the field of developmental disabilities.<a href="#">Learn</a> </h6>
-  <img class="materialboxed" width="220" src="images/1.jpg">        
+        
+          <div class="container" style="position: relative;">
+          <img style="position: absolute; z-index: 1" src="images/20.png">
+         <img  style="position: absolute; z-index: 2" src="images/21.png">
+         <img  style="position: absolute; z-index: 3" src="images/21.png">
+           </div>
+          
   
        </div>
          <div class ="col 14 m4 s4">
@@ -102,16 +108,16 @@
         </div>
 	   
 	   </div>
-  <div id="section2" class="col l12 m12 s12  grey lighten-4">
-  <h5 class="center-align light blue-text text-lighten-3">Solutions for everyone.</h5>
+  <div class="col l12 m12 s12  grey lighten-4">
+  <h5 id="section2"class="center-align light blue-text text-lighten-3 scrollspy">Solutions for everyone.</h5>
 		<div class="row">
-			<div class="col l2 m2 s2">
+			<div class="col l2 offset-l2">
 			</div>
 			<div class="col l8 m8 s8">
 
 				<div class="row">
 					<div class="col l2 m2 s12">
-						<img class="circle" width="100px" height="110px" src="images/29.jpg">
+						<img class="circle" width="100px" height="100px" src="images/29.jpg">
 					</div>
 					<div class="col l8 m8 s12">
 					        <h6 class="light blue-text text-lighten-3">Education</h6>
@@ -119,16 +125,16 @@
 					</div>
 				</div>
 			</div>
-			<div class="col l2 m2 s2">
+			<div class="col l2 s2 l2">
 			</div>
 			</div>
 			<div class="row">
-			<div class="col l3 m3 s3">
+			<div class="col l3 s3 l3">
 			</div>
 			<div class="col l8 m8 s8">
 				<div class="row ">
 					 <div class="col l2 m2 s12">
-						<img class="circle" width="100px" height="110px" src="images/3.jpg">
+						<img class="circle" width="100px" height="100px" src="images/3.jpg">
 					 </div>
 					  <div class="col l8 m8 s12">
 					      <h6 class="light blue-text text-lighten-3">Academics</h6>
@@ -136,17 +142,17 @@
 					  </div>
 				</div>
 			</div>
-			<div class="col l1 m1 s1">
+			<div class="col l1 offset-l1">
 			</div>
 			</div>
 
 			<div class="row">
-			<div class="col l2 m2 s2">
+			<div class="col l2 offset-l2">
 			</div>
 			<div class="col l8 m8 s8">
 				<div class="row ">
 					<div class="col l2 m2 s12">
-						<img class="circle" width="100px" height="110px" src="images/16.jpg">
+						<img class="circle" width="100px" height="100px" src="images/16.jpg">
 					</div>
 					<div class="col l8 m8 s12">
 					<h6 class="light blue-text text-lighten-3">Services</h6>
@@ -163,7 +169,7 @@
 			<div class="col l8 m8 s8">
 				<div class="row ">
 					<div class="col l2 m2 s12">
-						<img class="circle" width="100px" height="110px" src="images/15.jpg">
+						<img class="circle" width="100px" height="100px" src="images/15.jpg">
 					</div>
 					<div class="col l8 m8 s12">
 					<h6 class="light blue-text text-lighten-3">Sports</h6>
@@ -234,6 +240,7 @@
 <script>
 	$(document).ready(function(){
     	$(".button-collapse").sideNav();
+    	 $('.scrollspy').scrollSpy();
 });
 </script>
 </body>
